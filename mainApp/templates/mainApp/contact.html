@@ -1,0 +1,9 @@
+{% extends "mainApp/wrapper.html" %}
+
+{% block content %}
+    <div class="container">
+        {% for val in values %}
+            <p>{{val}}</p>
+        {% endfor %}
+    </div>
+{% endblock %} 
